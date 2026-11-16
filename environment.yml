@@ -1,0 +1,11 @@
+name: lianes-lib-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - streamlit
+  - sqlalchemy
+  - pandas
+  - pymysql
+  # pyarrow 26 lässt sich auf manchen Macs nicht laden (Fehler mit lz4), deshalb die ältere Version
+  - pyarrow<26

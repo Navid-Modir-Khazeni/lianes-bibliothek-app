@@ -1,0 +1,17 @@
+# Python erzeugt diese Ordner und Dateien selbst
+__pycache__/
+*.pyc
+
+# Einstellungen von VS Code und dem Mac (auf jedem Rechner anders)
+.vscode/
+.DS_Store
+
+# Von der App erzeugte Merkdatei für die Cover
+src/cover-cache.json
+src/cover-cache-v2.json
+
+# Eigenes Hintergrundfoto (groß, und die Bildrechte sind nicht geklärt)
+src/hintergrund.jpg
+
+# Falls später Zugangsdaten für Streamlit in eine Datei kommen
+.streamlit/secrets.toml
